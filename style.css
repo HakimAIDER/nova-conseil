@@ -1,0 +1,144 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero .content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  padding: 4rem 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.offres-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.offre {
+  background-color: #1d1d1d;
+  padding: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.offre:hover {
+  background-color: #2c2c2c;
+}
+
+.detail-offre {
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  margin: 0.25em;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75em;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
